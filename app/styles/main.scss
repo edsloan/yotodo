@@ -1,0 +1,65 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import 'sass-bootstrap/lib/bootstrap';
+
+body {
+    background: #202a39;
+    color: #fff;
+    font-family: "proxima-nova", sans-serif;
+}
+ 
+.hero-unit {
+    padding: 25px;
+}
+ 
+form {
+    margin: 25px 0;
+}
+ 
+h1 {
+    font-family: "proxima-nova", sans-serif;
+    font-size: 80px;
+    font-weight: 100;
+    text-align: center;
+}
+
+span {
+    color: #616c84;
+}
+
+ul,
+li form {
+    margin: 0;
+    padding: 0;
+}
+ 
+ul {
+    list-style: none;
+}
+
+li {
+    line-height: 1.5;
+}
+ 
+li form {
+    display: none;
+}
+ 
+.editing {
+    span {
+        display: none;
+    }
+ 
+    form {
+        display: inline-block;
+    }
+}
+ 
+input:checked ~ span {
+    text-decoration: line-through;
+}
+
+.todo-text {
+    font-size: 24px;
+    padding-left: 10px;
+}
